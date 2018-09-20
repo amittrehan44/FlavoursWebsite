@@ -454,6 +454,11 @@ a.service-button:hover {
     text-decoration: solid;
 }
 
+.journey {
+    font-size: 16px;
+    line-height: 1.6em;
+    margin-bottom: 30px;
+}
 
 /* Talk Business
 ---------------------------------*/
@@ -866,6 +871,14 @@ footer {
         .emaill {
             font-size: 11px !important;
         }
+
+        /*#carouselStart {
+            display: none;
+        }*/
+
+        .company-caption {
+            display: none;
+        }
     }
 
 
@@ -936,3 +949,9 @@ footer {
             font-size: 10px;
         }
     }
+
+@media (min-width: 500px) {
+    .flavour_logo {
+        display: none;
+    }
+}
